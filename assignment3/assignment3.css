@@ -1,0 +1,31 @@
+.headers {
+    color: red;
+    background-color: black;
+}
+
+.smallheaders {
+    color: white;
+    background-color: red;
+}
+
+#information {
+    color:grey;
+    background-color: red;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: green;
+}
+
+.emphasis {
+    color: red;
+    background-color: grey;
+}
