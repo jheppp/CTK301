@@ -1,0 +1,42 @@
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#header1 {
+    color: white;
+}
+
+#TopFillColor {
+    background-color: lightskyblue;
+}
+
+#blueheader {
+    color: blue;
+}
+
+#yellowspan {
+    color: orange;
+}
+
+.yellowbackground {
+    background-color: yellow;
+}
+
+.redwords {
+    color: red;
+}
+
+#fathersdayheader {
+    color: yellow;
+    background-color: green;
+}
+
+#greenbackground {
+    background-color: lightgreen;
+}
