@@ -1,0 +1,29 @@
+body {
+    background-image: url(ISU-Seal_1C_K.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.headers {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.centered {
+    text-align: center;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.images {
+    border: 10px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
