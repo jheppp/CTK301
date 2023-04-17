@@ -1,0 +1,129 @@
+body {
+    background-color: grey;
+}
+
+
+#page {
+    width: 960px;
+    height: 960px;
+    border: 3px solid black;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto auto;
+    font-family: 'Yantramanav', cursive;
+}
+
+header {
+    
+    background-color: black;
+    grid-column: span 12;
+    height: 340px;
+}
+
+audio {
+    margin-left: 330px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px 10px 10px 10px;
+    padding: 0;
+}
+
+
+
+nav li {   
+    width: 100px;
+    float: right;
+    text-align: left;
+    display: inline;  
+}
+
+nav li a {
+    
+    color: white;
+    text-decoration: none;
+    display: inline;
+    padding: 12px; 
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: grey;
+    transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+h1 {
+   
+    font-weight: normal;
+    color: white;
+    padding: 100px;
+    margin-top: 70px;
+    text-align: left;
+    background-image: url(Chucks.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+h2 {
+   
+    padding-bottom: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.float {
+    margin-left: 362px;
+    padding: 10px 10px 10px 10px;
+    width: 222px;
+    margin-right: 10px;
+}
+  
+nav {
+    grid-column: span 3;
+}
+  
+main {
+    grid-column: span 12;
+    margin-top: 240px;
+    background-color: lightgray;
+}
+  
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+main p {
+    width: 600px;
+    margin-left: 175px;
+    padding: 10px;
+    text-align: justify;
+   
+}
+
+
+main a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+
+footer {
+    
+    grid-column: span 12;
+   
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+}
+
+footer nav {
+    float: left;
+}
